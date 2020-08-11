@@ -56,6 +56,10 @@ class Owner
     self.cats.each do |cat|
       self.cats.delete(cat)
       cat.mood = "nervous"
+    end
+    self.dogs.each do |dog|
+      self.dogs.delete(dog)
+      dog.mood = "nervous"
     end  
   end
 
