@@ -1,5 +1,5 @@
 class Owner
-  attr_reade :name
+  attr_reader :name
 
   def initialize(name)
     @name = name
