@@ -27,6 +27,10 @@ class Owner
     "I am a #{@species}."
   end
 
+  def cat
+    @cats << cats
+  end  
+
 
 
 end
