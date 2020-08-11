@@ -26,7 +26,7 @@ class Owner
     "I am a #{@species}."
   end
 
-  def add_cats
+  def cats
     self.collect{|cat| cats.owner}
   end
 
