@@ -27,7 +27,7 @@ class Owner
   end
 
   def add_cats
-    cats.collect[|cat| cats.owner]
+    cats.collect{|cat| cats.owner}
 
   end
 
