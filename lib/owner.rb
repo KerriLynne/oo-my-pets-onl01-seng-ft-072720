@@ -37,7 +37,7 @@ class Owner
   end
 
   def buy_cat(cat_name) #can but a cat that's an instance of a cat class
-    Cat.new(cat_name)
+    Cat.new(cat_name, self)
   end
 
 
