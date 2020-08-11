@@ -8,6 +8,7 @@ class Owner
     @name = name
     @species = "human"
     @@all << self
+    @cats = []
   end
 
   def self.all
@@ -28,6 +29,6 @@ class Owner
 
   def cats
     Cats.all.collect{|cat| cat.owner}
-  end  
+  end
 
 end
