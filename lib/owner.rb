@@ -40,7 +40,7 @@ class Owner
     Cat.new(cat_name, self)
   end
 
-  def buy_dog(dog_name) #can but a cat that's an instance of a cat class
+  def buy_dog(dog_name) #can but a dog that's an instance of a dog class
     Dog.new(dog_name, self)
   end
 
